@@ -1,0 +1,34 @@
+{
+	"records": [
+		{
+			"key": "tfplan-functions",
+			"source": "./common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "tfstate-functions",
+			"source": "./common-functions/tfstate-functions/tfstate-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/common-functions/tfstate-functions/tfstate-functions.sentinel"
+		},
+		{
+			"key": "tfconfig-functions",
+			"source": "./common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "tfrun-functions",
+			"source": "./common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "aws-functions",
+			"source": "./aws-functions/aws-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/aws-functions/aws-functions.sentinel"
+		}
+	]
+}

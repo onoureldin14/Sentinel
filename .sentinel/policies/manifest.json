@@ -1,0 +1,16 @@
+{
+	"records": [
+		{
+			"key": "protect-against-instance-deletion",
+			"source": "./protect-against-instance-deletion.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/protect-against-instance-deletion.sentinel"
+		},
+		{
+			"key": "approve-expensive-resources",
+			"source": "./approve-expensive-resources.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/approve-expensive-resources.sentinel"
+		}
+	]
+}

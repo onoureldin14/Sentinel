@@ -8,8 +8,8 @@ mock "tfplan/v2" {
   }
 }
 
-test {
-  rules = {
-    main = false
-  }
-}
+// test {
+//   rules = {
+//     main = false
+//   }
+// }
