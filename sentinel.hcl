@@ -29,8 +29,8 @@ policy "delete_protection" {
   enforcement_level = "advisory"
 }
 
-policy "approve-expensive-resources" {
-  source = "./approve-expensive-resources.sentinel"
+policy "monthly-budget" {
+  source = "./monthly-budget.sentinel"
   enforcement_level = "advisory"
 }
 
