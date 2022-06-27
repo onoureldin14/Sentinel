@@ -1,0 +1,47 @@
+id = "run-cujghekU9MpdXaea"
+created_at = "2022-06-26T20:39:12.126Z"
+message = "Triggered via UI"
+commit_sha = "a5df60fd85f70273fd5d472f006cffe2201caf84"
+speculative = false
+is_destroy = false
+refresh = true
+refresh_only = false
+replace_addrs = null
+target_addrs = null
+
+variables = {
+	"AWS_ACCESS_KEY_ID": {
+		"category":  "env",
+		"sensitive": true,
+	},
+	"AWS_SECRET_ACCESS_KEY": {
+		"category":  "env",
+		"sensitive": true,
+	},
+}
+
+organization = {
+	"name": "OmarCo",
+}
+
+workspace = {
+	"auto_apply":  false,
+	"created_at":  "2022-06-26T14:49:20.144Z",
+	"description": null,
+	"id":          "ws-ikW9ettCJbg3Bx3P",
+	"name":        "OmarCo",
+	"tags":        [],
+	"vcs_repo": {
+		"branch":             "",
+		"display_identifier": "onoureldin14/OmarCo",
+		"identifier":         "onoureldin14/OmarCo",
+		"ingress_submodules": false,
+	},
+	"working_directory": "",
+}
+
+cost_estimate = {
+	"delta_monthly_cost":    "16.704",
+	"prior_monthly_cost":    "0.0",
+	"proposed_monthly_cost": "16.704",
+}

@@ -6,15 +6,24 @@
 
 # Import common-functions/tfrun-functions/tfrun-functions.sentinel
 # with alias "run"
-import "tfrun-functions" as run
+import "tfrun"
+import "decimal"
 
-#Determine the Limited cost for resource provisioning
+#Get Monthly cost
+monthlyCost =  tfrun.cost_estimate.proposed_monthly_cost
+
+
+# Determine the Limited cost for resource provisioning
 limitedCost = "10"
 
-# Limit the proposed monthly costs
-limitProposedMonthlyCost = run.limit_proposed_monthly_cost(limitedCost)
+validate_cost = rule {
+			monthlyCost < limitedCost
+}
 
-# Main rule
+if validate_cost is false {
+		print("This is too expensive dude! the proposed cost is",monthlyCost,"and your limit is",limitedCost)
+	}
+
 main = rule {
-  length(violatingInstances["messages"]) is 0
+  validate_cost
 }

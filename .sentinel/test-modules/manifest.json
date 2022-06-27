@@ -1,6 +1,18 @@
 {
 	"records": [
 		{
+			"key": "test/approve-expensive-resources/fail/tfrun-functions",
+			"source": "../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/approve-expensive-resources/pass/tfrun-functions",
+			"source": "../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
 			"key": "test/protect-against-instance-deletion/fail/tfplan-functions",
 			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
 			"sourceSum": "",

@@ -2,14 +2,14 @@ module "tfrun-functions" {
   source = "../../common-functions/tfrun-functions/tfrun-functions.sentinel"
 }
 
-mock "tfplan/v2" {
+mock "tfrun" {
   module {
-    source = "mock-tfplan-v2-pass.sentinel"
+    source = "mock-tfrun-pass.sentinel"
   }
 }
 
-test {
-  rules = {
-    main =  true
-  }
-}
+// test {
+//   rules = {
+//     main =  true
+//   }
+// }

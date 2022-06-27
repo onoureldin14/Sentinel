@@ -18,8 +18,20 @@ module "aws-functions" {
   source = "./aws-functions/aws-functions.sentinel"
 }
 
+mock "tfrun" {
+  module {
+    source = "./mocks/mock-tfrun.sentinel"
+  }
+}
+
 policy "delete_protection" {
   source = "./delete_protection.sentinel"
   enforcement_level = "advisory"
 }
+
+policy "approve-expensive-resources" {
+  source = "./approve-expensive-resources.sentinel"
+  enforcement_level = "advisory"
+}
+
 
