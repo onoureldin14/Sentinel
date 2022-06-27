@@ -1,13 +1,13 @@
 {
 	"records": [
 		{
-			"key": "test/protect-against-instance-deletion/pass/tfplan-functions",
+			"key": "test/protect-against-instance-deletion/fail/tfplan-functions",
 			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
 			"sourceSum": "",
 			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
 		},
 		{
-			"key": "test/protect-against-instance-deletion/fail/tfplan-functions",
+			"key": "test/protect-against-instance-deletion/pass/tfplan-functions",
 			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
 			"sourceSum": "",
 			"dest": "/Users/onoureldin_/Documents/Omar/Career/Devops/sentinel-project/OmarCo/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"

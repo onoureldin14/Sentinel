@@ -1,11 +1,12 @@
 import "tfplan/v2" as tfplan
 
 ec2_instances = filter tfplan.resource_changes as _, rc {
-	rc.address is "aws_instance.db" and rc.change.actions contains "delete"
+	rc.address contains "aws_instance" and rc.change.actions contains "delete"
 }
 
 blacklist_ec2_instances = [
 	"aws_instance.db",
+	"aws_instance.web",
 ]
 
 validate_destroyed_resources = rule {
@@ -15,6 +16,13 @@ validate_destroyed_resources = rule {
 		}
 	}
 }
+
+if validate_destroyed_resources is false {
+	for ec2_instances as instances{
+		print("Can't delete",instances)
+	}
+}
+
 main = rule {
 	validate_destroyed_resources
 }

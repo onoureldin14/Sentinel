@@ -18,8 +18,8 @@ module "aws-functions" {
   source = "./aws-functions/aws-functions.sentinel"
 }
 
-policy "protect-against-instance-deletion" {
-  source = "./protect-against-instance-deletion.sentinel"
+policy "delete_protection" {
+  source = "./delete_protection.sentinel"
   enforcement_level = "advisory"
 }
 

@@ -151,7 +151,7 @@ resource_changes = {
 		"address": "aws_instance.web",
 		"change": {
 			"actions": [
-				"create",
+				"delete",
 			],
 			"after": {
 				"ami": "ami-078a289ddf4b09ae0",
