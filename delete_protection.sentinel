@@ -1,3 +1,5 @@
+# This policy uses the Sentinel tfplan/v2 import to check any blacklisted resources are being destroyed
+
 import "tfplan/v2" as tfplan
 
 ec2_instances = filter tfplan.resource_changes as _, rc {

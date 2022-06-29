@@ -1,8 +1,4 @@
-# This policy uses the Sentinel tfplan/v2 import to prevent deletion
-# of RDS instances that have `deletion_protection` set to true.
-# Note that it calls the `filter_attribute_was_value()` function which passes
-# `rc.change.before` instead of `rc` to the `evaluate_attribute()` function
-# which converts `rc` to `rc.change.after`.
+# This policy uses the Sentinel tfrun import to check the proposed monthly cost versus the limit cost provided
 
 # Import common-functions/tfrun-functions/tfrun-functions.sentinel
 # with alias "run"
